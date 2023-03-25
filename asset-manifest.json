@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/test-Frontend/static/css/main.73feba52.css",
+    "main.js": "/test-Frontend/static/js/main.8bbcf008.js",
+    "static/js/787.6185ae13.chunk.js": "/test-Frontend/static/js/787.6185ae13.chunk.js",
+    "static/media/MyRecommend-3.jpg": "/test-Frontend/static/media/MyRecommend-3.d13a1febdaabd05545c5.jpg",
+    "static/media/s01.jpg": "/test-Frontend/static/media/s01.fbc8fd0aab830cb69023.jpg",
+    "static/media/d01.jpg": "/test-Frontend/static/media/d01.0dac8f63262ac565b05d.jpg",
+    "static/media/l02.jpg": "/test-Frontend/static/media/l02.5e068807b736ec54d243.jpg",
+    "static/media/column-7.jpg": "/test-Frontend/static/media/column-7.689431e17fce728a83ff.jpg",
+    "static/media/m02.jpg": "/test-Frontend/static/media/m02.44a3d64719e9f4ba8a33.jpg",
+    "static/media/d02.jpg": "/test-Frontend/static/media/d02.2bc8a93ede7a50f868ab.jpg",
+    "static/media/column-1.jpg": "/test-Frontend/static/media/column-1.0ad551551698163ab4a5.jpg",
+    "static/media/l01.jpg": "/test-Frontend/static/media/l01.cea6f23f5525eda7fdf1.jpg",
+    "static/media/MyRecommend-1.jpg": "/test-Frontend/static/media/MyRecommend-1.dbe7d04e213447b46bdd.jpg",
+    "static/media/MyRecommend-2.jpg": "/test-Frontend/static/media/MyRecommend-2.2d1bff833745bb161b92.jpg",
+    "static/media/l03.jpg": "/test-Frontend/static/media/l03.5e807d6a9c3b975037cf.jpg",
+    "static/media/m01.jpg": "/test-Frontend/static/media/m01.9a28e9749d8caff8eb89.jpg",
+    "static/media/column-4.jpg": "/test-Frontend/static/media/column-4.976d9a6f0284f840a287.jpg",
+    "static/media/m03.jpg": "/test-Frontend/static/media/m03.4af19e44a200a8730461.jpg",
+    "static/media/column-2.jpg": "/test-Frontend/static/media/column-2.048bd5a54497c939f279.jpg",
+    "static/media/column-6.jpg": "/test-Frontend/static/media/column-6.21870d81940a95fd506e.jpg",
+    "static/media/column-3.jpg": "/test-Frontend/static/media/column-3.95b9056794559e3742fb.jpg",
+    "static/media/column-5.jpg": "/test-Frontend/static/media/column-5.c5238767ec5c394ddf1c.jpg",
+    "static/media/column-8.jpg": "/test-Frontend/static/media/column-8.0456d620a38b4c257577.jpg",
+    "static/media/shape1.png": "/test-Frontend/static/media/shape1.8daa1cf2534fb053d23d.png",
+    "index.html": "/test-Frontend/index.html",
+    "main.73feba52.css.map": "/test-Frontend/static/css/main.73feba52.css.map",
+    "main.8bbcf008.js.map": "/test-Frontend/static/js/main.8bbcf008.js.map",
+    "787.6185ae13.chunk.js.map": "/test-Frontend/static/js/787.6185ae13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73feba52.css",
+    "static/js/main.8bbcf008.js"
+  ]
+}
