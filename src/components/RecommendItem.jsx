@@ -5,7 +5,7 @@ const RecommendItem = ({ imgRecom, title, content }) => {
     <div className="flex relative max-w-[270px] justify-center items-center  max-[790px]:text-center">
       <div className="bg-dark_600 border-[24px] border-primary_300">
         <img
-          className="w-[240px] h-[240px] opacity-[0.25]"
+          className="w-[248px] h-[240px] opacity-[0.25]"
           src={imgRecom}
           alt="team1"
         />

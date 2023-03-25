@@ -1,6 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/images/about.png";
-import RecommendItem from "../components/RecommendItem";
+import RecommendItem from "./RecommendItem";
 import { importAll } from "../utils/hooks/useGetImage";
 
 const AboutSection = () => {
@@ -8,9 +7,9 @@ const AboutSection = () => {
     require.context("../assets/Photo/img", false, /\.(png|jpg|jpe?g|svg)$/)
   );
   return (
-    <div id="About" className=" w-full p-10">
+    <div id="About" className=" w-full p-10 mt-[110px]">
       <div className="myContainer ">
-        <div className="flex max-[770px]:flex-col justify-center items-center gap-5">
+        <div className="flex max-[770px]:flex-col justify-between items-center gap-[48px]">
           <RecommendItem
             imgRecom={myIcon["MyRecommend-1.jpg"]}
             title="Body record"

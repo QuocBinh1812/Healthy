@@ -33,7 +33,7 @@ module.exports = {
         primary_300: "#FFCC21",
         primary_400: "#FF963C",
         primary_500: "#EA6C00",
-        primary_300_400: gradients.primary_300_400,
+        gray_diary: "#707070",
         secondary: "#8FE9D0",
         dark_600: "#2E2E2E",
         dark_500_text: "#414141",

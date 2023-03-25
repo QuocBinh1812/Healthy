@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import heroImg from "../assets/images/hero.png";
-import useGetImage from "../utils/hooks/useGetImage";
-import { Progress, Space } from "antd";
-// import { LineChart, Line, CartesianGrid, XAxis, YAxis } from "recharts";
-import LineChart from "../components/LineChart";
+
+import { Progress } from "antd";
+import LineChart from "./LineChart";
 import { importAll } from "../utils/hooks/useGetImage";
 const HeroSection = ({ isWidth }) => {
   const myIcon = importAll(

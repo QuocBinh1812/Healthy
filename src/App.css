@@ -51,6 +51,9 @@
   .btn-hover {
     @apply hover:text-colorHerderHover transition-all duration-200 cursor-pointer;
   }
+  .btn-active {
+    @apply text-colorHerderHover transition-all duration-200 cursor-pointer;
+  }
   .textHeader {
     @apply text-[15px] text-black font-medium;
   }

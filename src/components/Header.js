@@ -1,24 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Logo from "../assets/logo/グループ 134.png";
-import MenuHeader from "../components/MenuHeader.jsx";
+import MenuHeader from "./MenuHeader.jsx";
 
 //import * as myIcon from "../assets/logo";
-import DrawMenu from "../components/DrawMenu";
-function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => {
-    images[item.replace("./", "")] = r(item);
-  });
-  return images;
-}
+import DrawMenu from "./DrawMenu";
+import { useNavigate } from "react-router-dom";
 
 const Header = ({ isMobile }) => {
   const headerRef = useRef(null);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  // const [isMobile, setIsMobile] = useState(
-  //   window.matchMedia("max-width: 770px").matches
-  // );
 
   function importAll(r) {
     let images = {};
@@ -33,7 +24,6 @@ const Header = ({ isMobile }) => {
   const handleMenu = () => {
     setIsNavOpen(!isNavOpen);
   };
-  // const fade = useSpring({
 
   const fadehidenShow = useSpring({
     from: { display: "none" },
@@ -48,10 +38,6 @@ const Header = ({ isMobile }) => {
     }
   }, isNavOpen);
   useEffect(() => {
-    // window.addEventListener("resize", () => {
-    //   setIsMobile(window.matchMedia("(max-width: 770px)").matches);
-    //   console.log(window.matchMedia("(max-width: 770px)").matches);
-    // });
     window.addEventListener("scroll", () => {
       if (headerRef.current && window.scrollY > 100) {
         headerRef.current.style.boxShadow =
@@ -61,6 +47,7 @@ const Header = ({ isMobile }) => {
       }
     });
   }, []);
+  const navigate = useNavigate();
   return (
     <div
       ref={headerRef}
@@ -76,19 +63,26 @@ const Header = ({ isMobile }) => {
             className="w-[109px] h-[40px] ml-[17px] mr-[18px] "
             src={Logo}
             alt="logo"
+            onClick={() => navigate("/")}
           />
           <div className="flex-center  relative">
             {!isMobile && (
               <ul className="text-[16px] flex-center    mb-0">
-                <MenuHeader icon={myIcon["icon_memo.png"]} title="自分の記録" />
+                <MenuHeader
+                  icon={myIcon["icon_memo.png"]}
+                  title="自分の記録"
+                  path="record"
+                />
                 <MenuHeader
                   icon={myIcon["icon_challenge.png"]}
                   title="チャレンジ"
+                  path="column"
                 />
                 <MenuHeader
                   icon={myIcon["icon_info.png"]}
                   title="お知らせ"
                   count={1}
+                  path=""
                 />
               </ul>
             )}
