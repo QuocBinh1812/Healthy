@@ -51,7 +51,7 @@ const Header = ({ isMobile }) => {
   return (
     <div
       ref={headerRef}
-      className="w-full bg-dark_500_text z-50  fixed top-0 left-0 "
+      className="w-full bg-dark_500_text z-[999] fixed top-0 left-0 "
     >
       <animated.div
         style={fadehidenShow}
